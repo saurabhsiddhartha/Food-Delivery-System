@@ -31,5 +31,5 @@ app.get("/", (req, res) => {
 });
 
 app.listen(port, "0.0.0.0", () => {
-  console.log(`Server Started on https://food-del-2-943z.onrender.com:${port}`);
+  console.log(`Server Started on ${port}`);
 });
